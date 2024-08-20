@@ -1,19 +1,22 @@
 # Define the following:
-# Integer -
-# Float -
-# String -
+# Integer -  a whole number. In python int()
+# Float - a number with a decimal. In python float()
+# String - alphanumeric data In python str()
 
 # Fill in weather the following Values are Int, Float or Str.
-132 ==
-0.234 ==
-"129" ==
-999.12 ==
-989768 ==
-"3244.32" ==
+132 == int()
+0.234 == float()
+"129" == str()
+999.12 == float()
+989768 == int()
+"3244.32" == str()
 
 # Fix this piece of code:
 fav = input("What is your favorite integer? ")
-favSquared = fav * 2
+favSquared = int(fav) ** 2
 print("Your favourite number squared is:", favSquared)
 
 # Re-write the code above so that it does the same for a float:
+fav = input("What is your favorite float? ")
+favSquared = float(fav) ** 2
+print("Your favourite number squared is:", favSquared)
